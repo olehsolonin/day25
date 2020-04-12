@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Playfair+Display&display=swap");
+
+body {
+  font: 300 18px/1.8 Lato, sans-serif;
+  color: #7a7a7a;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1360px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 30px 0;
+}
+
+.ba-main-text {
+  background: #fff;
+  box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+  left: 100px;
+  top: 130px;
+}
+
+.ba-post {
+  padding: 92px 135px 92px 124px;
+}
+
+.ba-title {
+  color: #171717;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.ba-content-first-letter:first-letter {
+  font-size: 110px;
+  color: #171717;
+  font-family: "Playfair Display", serif;
+  float: left;
+  line-height: 0.3;
+  margin: 25px 28px 24px -3px;
+}
+
+.ba-content-quote {
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.ba-content-quote::before {
+  content: '"';
+  font-style: italic;
+  font-size: 60px;
+}
+
+.ba-content-button {
+  text-decoration: none;
+  color: #eaa258;
+  border: 2px solid #eaa258;
+  text-transform: uppercase;
+  padding: 15px 70px;
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
